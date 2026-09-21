@@ -1,0 +1,22 @@
+body {
+    font-family:Arial, sans-serif;
+    background-color:lightgrey;
+    margin:20px;
+}
+header h1{
+    text-align: center;
+    color:burlywood
+}
+.card {
+    float: left;
+    width:30px;
+    margin:2px;
+    padding:20px;
+    background-color:lightcoral;
+    border:radius 2px skyblue;
+
+}
+.card h3{
+    margin: top 2px;
+    color:greenyellow;
+}

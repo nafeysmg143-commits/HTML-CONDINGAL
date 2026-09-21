@@ -1,0 +1,17 @@
+h1{
+    background-color: cornflowerblue;
+    width: 180px;
+    padding: 15px;
+    padding-left: 50px;
+    margin-top: 15px;
+    margin-left: 60px;
+    border: 17px outset lightgreen; 
+}
+button{
+    margin-top: 30px;
+    margin-left: 40px;
+    border: 6px double wheat;
+    padding: 15px;
+    color: lightsalmon;
+    width: 80px;
+}

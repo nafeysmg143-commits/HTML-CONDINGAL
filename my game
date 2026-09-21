@@ -1,0 +1,26 @@
+import pygame
+
+# 1. Initialize Pygame
+pygame.init()
+
+# 2. Set up the screen (our game window)
+screen_width = 800
+screen_height = 600
+screen = pygame.display.set_mode((screen_width, screen_height))
+pygame.display.set_caption("My Car Game") # Give your window a title!
+
+# 3. Game Loop - This is where your game actually runs!
+running = True
+while running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+    # 4. Fill the background color (optional, but good to see something!)
+    screen.fill((0, 0, 0)) # Fills the screen with black (RGB: 0, 0, 0)
+
+    # 5. Update the display
+    pygame.display.flip() # Or pygame.display.update()
+
+# 6. Quit Pygame
+pygame.quit()

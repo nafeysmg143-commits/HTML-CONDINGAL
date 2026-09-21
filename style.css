@@ -1,0 +1,25 @@
+body{
+    background-image: linear-gradient(to right , skyblue, lightgreen);
+}
+h1{
+    background-color: skyblue;
+    text-align: center;
+}
+p{
+    background-color: lightgoldenrodyellow;
+    border-radius: 20px;
+    text-align: center;
+    height: 50px;
+    width: 300px;
+    animation: twinkle 2s infinite alternate;
+}
+@keyframes twinkle{
+    from { background-color: red;} 
+    to { background-color: grey (58, 54, 54);}
+}
+#data {
+    color: lawngreen;
+}
+.to{
+    color: blueviolet
+}

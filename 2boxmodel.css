@@ -1,0 +1,22 @@
+#nav{
+    display: flex;
+    position: sticky;
+    top: 3px; 
+}
+#inn{
+    display: flex;
+    margin-left: 60px;
+    position: sticky;
+    top: 3px;
+}
+#cat{
+    position: fixed;
+
+}
+#sta{
+    position: static;
+}
+#move{
+    position: relative;
+    padding: 40px;
+}

@@ -1,0 +1,27 @@
+body{
+    text-align:center;
+    background-color:crimson
+}
+p::first-letter{
+    font-size: 60px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button{
+    background-color:darksalmon;
+    border-radius: 14px;
+    width:120px;
+    height:70px;
+}
+button:hover{
+    color:black;
+    background-color:black(17,52,8);
+    font-size: 19px;
+}
+ul li:nth-child(2){
+    background-color:cadetblue;
+    color:black;
+}
+h3+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:aqua;
+}
